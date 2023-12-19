@@ -15,4 +15,4 @@ function solution(array $first, array $second)
     return $results;
 }
 
-echo json_encode(solution([17, 28, 30], [99, 16, 8]));
+print_r(solution([1, 2, 3], [3, 2, 1]));
